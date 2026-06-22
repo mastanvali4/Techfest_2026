@@ -1,42 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Parallax Adventure</title>
-<link rel="stylesheet" href="style.css">
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#111;color:white}
+.hero{height:100vh;display:flex;align-items:center;justify-content:center;background:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1920') center/cover fixed}
+h1{font-size:4rem;text-shadow:0 0 20px black}
+.section{padding:80px 10%;text-align:center}
+.card{background:#222;padding:20px;border-radius:12px;margin:20px auto;max-width:700px}
+.parallax{height:100vh;display:flex;align-items:center;justify-content:center;background:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1920') center/cover fixed}
+</style>
 </head>
 <body>
-<header class="hero">
-<div class="bg"></div>
-<div class="content">
-<h1>PARALLAX WORLD</h1>
-<p>Scroll Down To Explore</p>
+<div class="hero"><h1>PARALLAX ADVENTURE</h1></div>
+<div class="section">
+<h2>Explore the Journey</h2>
+<div class="card">Smooth parallax scrolling effect.</div>
+<div class="card">Modern design and immersive experience.</div>
 </div>
-</header>
-
-<section class="section">
-<h2>Mountains</h2>
-<p>Experience depth with layered scrolling effects.</p>
-</section>
-
-<section class="parallax mountain"></section>
-
-<section class="section">
-<h2>Forest</h2>
-<p>Smooth animations make scrolling immersive.</p>
-</section>
-
-<section class="parallax forest"></section>
-
-<section class="section">
-<h2>Ocean</h2>
-<p>Different speeds create a realistic 3D feel.</p>
-</section>
-
-<section class="parallax ocean"></section>
-
-<footer><h2>Thank You For Scrolling</h2></footer>
-<script src="script.js"></script>
+<div class="parallax"><h1>Into the Mountains</h1></div>
 </body>
 </html>
